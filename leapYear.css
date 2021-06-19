@@ -1,0 +1,50 @@
+body{
+    background-image: url(img/cool-back.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    margin: 200px;
+    font-family: raleway;
+}
+
+.firstDiv{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+    height: 200px;
+    box-sizing: border-box; 
+    border-width: 5px;
+    border-color: lavender;
+    border-radius: 20px;
+    background-color:lavender;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.secondDiv{
+    margin: 4px;
+    padding: 10px;
+}
+
+#best{
+    position: relative;
+    left: 20px;
+    border: hidden;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:grey;
+    color: white;
+
+}
+
+#best:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+#inner{
+    margin: 8px;
+    position: relative;
+    left: 25px;
+}
+
